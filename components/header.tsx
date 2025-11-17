@@ -60,7 +60,7 @@ export default function Header() {
       >
         <div className="flex items-center justify-between p-4 border-b border-black/40">
           <Link href="/" className="flex items-center" onClick={() => setMobileOpen(false)}>
-            <Image src="/assets/img/logo.png" alt="Logo" width={40} height={40} />
+            <Image src="/img/logo.png" alt="Logo" width={40} height={40} />
           </Link>
           <button aria-label="Close menu" onClick={() => setMobileOpen(false)} className={`text-[var(--color-primary)] p-2`}>
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
