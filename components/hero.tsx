@@ -5,15 +5,16 @@ import Image from "next/image";
 
 export default function Hero(){
   return (
-   <section id="hero" className="relative w-full min-h-screen lg:pt-20" aria-label="Hero">
-      {/* Background image (Next/Image fill -> responsive + optimized) */}
-      <Image
-        src="/img/home/hero-img.jpg"
-        alt="Hero background"
-        fill
-        priority
-        className="object-cover object-top z-0"
-      />
+    <section id="hero" className="relative w-full min-h-screen bg-black lg:px-[5vw]" aria-label="Hero">
+      <div className="relative w-full min-h-screen overflow-hidden">
+        {/* Background image (Next/Image fill -> responsive + optimized) */}
+        <Image
+          src="/img/home/hero-img.jpg"
+          alt="Hero background"
+          fill
+          priority
+          className="object-cover object-top z-0"
+        />
       {/* Full dark overlay */}
       <div className="absolute inset-0 bg-black/75" aria-hidden="true" />
 
@@ -21,7 +22,7 @@ export default function Hero(){
       <div className="hidden lg:block absolute top-0 bottom-0 left-0 w-1/2 bg-black/80 pointer-events-none" aria-hidden="true" />
 
       {/* Content container above overlays; padding accounts for fixed header */}
-      <div className="relative z-10 max-w-6xl mx-auto px-4 py-[180px] md:py-40 sm:py-28">
+      <div className="relative z-10 max-w-6xl mx-auto lg:mx-0 px-4 py-4 sm:py-28 md:py-40 lg:py-60 lg:pl-102">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
           <div>
             <h1
@@ -31,7 +32,7 @@ export default function Hero(){
               Focus On Priorities
             </h1>
 
-            <blockquote className="border-l-4 border-[var(--color-primary)] pl-6 text-white/90 mb-6 max-w-prose">
+            <blockquote className="border-l-4 border-[var(--color-primary)] pl-6 text-white/90 mb-6 lg:w-full max-w-prose">
               In today&#39;s competitive landscape, businesses must prioritise core
               operations. Partnering with Willful Solutions delegates software concerns,
               enabling focus on innovation, growth, and satisfaction.
@@ -57,6 +58,7 @@ export default function Hero(){
             </div>
           </div>
         </div>
+      </div>
       </div>
     </section>
   );

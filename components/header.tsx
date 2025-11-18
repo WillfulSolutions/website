@@ -19,25 +19,25 @@ export default function Header() {
     return (
         <header
           className={`fixed top-0 left-0 right-0 z-9999 transition-all duration-300 ${
-            sticked ? "bg-black/90 py-3" : "bg-transparent py-2"
+            sticked ? "bg-black/90 py-2" : "bg-transparent py-2"
           }`}
           aria-hidden={false}
         >
-          <div className="max-w-6xl mx-auto flex items-center justify-between px-4">
-            <Link href="/" className="flex items-center" onClick={() => setMobileOpen(false)}>
-                <Image src="/img/logo-trim.png" alt="Logo" width={200} height={200} priority className="w-28 lg:w-42 h-auto" />
-            </Link>
+        <div className="w-full flex items-center justify-between px-4 lg:px-134">
+          <Link href="/" className="flex items-center" onClick={() => setMobileOpen(false)}>
+            <Image src="/img/logo-trim.png" alt="Logo" width={200} height={200} priority className="w-28 lg:w-42 h-auto" />
+          </Link>
 
-            <nav className="hidden xl:flex items-center space-x-6 navbar">
+          <nav className="hidden xl:flex items-center space-x-6 navbar">
               <Link href="#" className={`text-[var(--color-primary)] hover:text-white font-medium`}>Home</Link>
               <Link href="#about" className={`text-[var(--color-primary)] hover:text-white font-medium`}>About</Link>
               <Link href="#services-list" className={`text-[var(--color-primary)] hover:text-white font-medium`}>Services</Link>
               <Link href="/contact" className={`text-[var(--color-primary)] hover:text-white font-medium`}>Technologies</Link>
               <Link href="/portfolio" className={`text-[var(--color-primary)] hover:text-white font-medium`}>Portfolio</Link>
-                <Link href="/contact" className={`text-[var(--color-primary)] hover:text-white font-medium`}>Contact</Link>
-            </nav>
+              <Link href="/contact" className={`text-[var(--color-primary)] hover:text-white font-medium`}>Contact</Link>
+          </nav>
 
-            <div className="xl:hidden">
+         <div className="xl:hidden">
           <button
             aria-label="Open menu"
             onClick={() => setMobileOpen(true)}
@@ -60,7 +60,7 @@ export default function Header() {
       >
         <div className="flex items-center justify-between p-4 border-b border-black/40">
           <Link href="/" className="flex items-center" onClick={() => setMobileOpen(false)}>
-            <Image src="/img/logo.png" alt="Logo" width={40} height={40} />
+            <Image src="/assets/img/logo.png" alt="Logo" width={40} height={40} />
           </Link>
           <button aria-label="Close menu" onClick={() => setMobileOpen(false)} className={`text-[var(--color-primary)] p-2`}>
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
