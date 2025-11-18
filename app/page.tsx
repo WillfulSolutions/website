@@ -2,6 +2,7 @@ import Header from '../components/header';
 import Hero from '../components/hero';
 import Footer from '../components/footer';
 import WhyChooseUs from "@/components/why-choose-us";
+import ServicesList from "@/components/services-list";
 
 export default function Home() {
     return (
@@ -12,6 +13,7 @@ export default function Home() {
           <Hero />
           {/* Add other sections/components below (Why us, Services, Features, etc.) */}
             <WhyChooseUs />
+            <ServicesList />
         </main>
         <Footer />
       </div>

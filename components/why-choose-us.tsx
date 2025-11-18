@@ -96,7 +96,7 @@ export default function WhyChooseUs(){
     };
 
     return (
-        <section id="why-us" className="bg-black pb-2 text-white">
+        <section id="why-us" className="bg-black pb-8 text-white">
       <div className="px-4 sm:mx-auto  md:mx-0 lg:container lg:mx-auto lg:px-6 " data-aos="fade-up">
         <div className="section-header py-8">
           <h2 className="text-3xl font-semibold">Why Choose Us</h2>
