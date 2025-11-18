@@ -23,7 +23,7 @@ export default function Header() {
           }`}
           aria-hidden={false}
         >
-        <div className="w-full flex items-center justify-between px-4 lg:px-134">
+        <div className="w-full flex items-center justify-between px-4 md:pr-5 lg:px-134">
           <Link href="/" className="flex items-center" onClick={() => setMobileOpen(false)}>
             <Image src="/img/logo-trim.png" alt="Logo" width={200} height={200} priority className="w-28 lg:w-42 h-auto" />
           </Link>

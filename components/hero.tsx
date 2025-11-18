@@ -22,8 +22,8 @@ export default function Hero(){
       <div className="hidden lg:block absolute top-0 bottom-0 left-0 w-1/2 bg-black/80 pointer-events-none" aria-hidden="true" />
 
       {/* Content container above overlays; padding accounts for fixed header */}
-      <div className="relative z-10 max-w-6xl mx-auto lg:mx-0 px-4 py-4 sm:py-28 md:py-40 lg:py-60 lg:pl-102">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+      <div className="relative z-10 max-w-6xl mx-auto lg:mx-0 px-4 py-72 lg:pl-102">
+        <div className="grid grid-cols-1 gap-8 items-center">
           <div>
             <h1
               className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-[var(--color-primary)]"
