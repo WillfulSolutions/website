@@ -100,12 +100,13 @@ const services: Service[] = [
 export default function ServicesList() {
   return (
     <section id="services-list" className="bg-[var(--color-bg-tertiary,#000)] py-12 text-white">
-      <div className="max-w-7xl px-4  lg:ml-128 lg:mr-auto lg:px-6" data-aos="fade-up">
+      <div className="max-w-8xl px-4  lg:mx-128 lg:px-6" data-aos="fade-up">
         <div className="section-header mb-8">
           <h2 className="text-3xl font-semibold text-[var(--color-primary,#d0ad50)]">Our Services</h2>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[repeat(3,minmax(0,1fr))] gap-y-6 lg:gap-x-12">
+          <div className="flex justify-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-6 lg:gap-x-12">
           {services.map((s, idx) => (
             <div
               key={s.title}
@@ -113,7 +114,7 @@ export default function ServicesList() {
               data-aos="fade-up"
               data-aos-delay={s.aosDelay}
             >
-              <div className="flex-shrink-0 mr-4">
+              <div className="flex flex-wrap mr-4">
                 <div
                   className="w-10 h-10 flex items-center justify-center"
                   aria-hidden
@@ -132,6 +133,7 @@ export default function ServicesList() {
           ))}
         </div>
       </div>
+        </div>
     </section>
   );
 }
