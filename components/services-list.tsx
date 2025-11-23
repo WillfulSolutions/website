@@ -99,7 +99,7 @@ const services: Service[] = [
 
 export default function ServicesList() {
   return (
-    <section id="services-list" className="bg-[var(--color-bg-tertiary,#000)] py-12 text-white">
+    <section id="services-list" className="bg-black py-12 text-white">
       <div className="max-w-8xl px-4  lg:mx-128 lg:px-6" data-aos="fade-up">
         <div className="section-header mb-8">
           <h2 className="text-3xl font-semibold text-[var(--color-primary,#d0ad50)]">Our Services</h2>

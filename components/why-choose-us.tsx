@@ -96,7 +96,7 @@ export default function WhyChooseUs(){
     };
 
     return (
-        <section id="why-us" className="bg-black pb-8 text-white">
+        <section id="why-us" className="bg-[var(--color-bg-tertiary,#000)] pb-8 text-[var(--color-primary)]">
       <div className="px-4 sm:mx-auto  md:mx-0 lg:container lg:mx-auto lg:px-6 " data-aos="fade-up">
         <div className="section-header py-8">
           <h2 className="text-3xl font-semibold">Why Choose Us</h2>
@@ -115,7 +115,7 @@ export default function WhyChooseUs(){
             }}
           />
 
-          <div className="col-span-12 xl:col-span-7 relative bg-black">
+          <div className="col-span-12 xl:col-span-7 relative bg-[var(--color-bg-tertiary,#000)]">
             <div
               className="overflow-hidden"
               onMouseEnter={stopAutoplay}
