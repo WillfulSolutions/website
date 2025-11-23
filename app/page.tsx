@@ -3,6 +3,8 @@ import Hero from '../components/hero';
 import Footer from '../components/footer';
 import WhyChooseUs from "@/components/why-choose-us";
 import ServicesList from "@/components/services-list";
+import CallToAction from "@/components/call-to-action";
+import FeaturesSection from "@/components/features";
 
 export default function Home() {
     return (
@@ -14,9 +16,12 @@ export default function Home() {
           {/* Add other sections/components below (Why us, Services, Features, etc.) */}
             <WhyChooseUs />
             <ServicesList />
+            <CallToAction />
+            <FeaturesSection />
         </main>
         <Footer />
       </div>
+
     </>
   );
 }
