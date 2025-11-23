@@ -7,7 +7,7 @@ export default function Footer(): React.JSX.Element {
     <footer className="bg-[var(--color-bg-primary)] text-white">
       {/* Footer content */}
       <div className="pt-[60px] pb-[30px]">
-        <div className="max-w-6xl mx-auto px-4">
+        <div className="w-full mx-auto px-4 md:pr-16 lg:px-134">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
             {/* Info / Logo */}
             <div className="lg:col-span-5">
@@ -22,7 +22,7 @@ export default function Footer(): React.JSX.Element {
                 />
               </Link>
 
-              <p className="mt-6 text-[15px] text-white font-[var(--font-primary)]">
+              <p className="mt-6 text-[15px] text-white font-[var(--font-primary)] w-10/12">
                 Our mission is to provide businesses with innovative software solutions, empowering them to thrive in a
                 competitive environment. We prioritise efficiency, collaboration, and reliable support to help clients
                 achieve their goals.
@@ -30,7 +30,7 @@ export default function Footer(): React.JSX.Element {
 
               <div className="mt-4 flex items-center space-x-3">
                 <a
-                  href="#"
+                  href="/"
                   aria-label="Twitter"
                   className="w-8 h-8 inline-flex items-center justify-center rounded-full border-2 border-[var(--color-secondary)] text-[var(--color-secondary)] transition hover:bg-[var(--color-tertiary)] hover:text-black"
                 >
@@ -40,7 +40,7 @@ export default function Footer(): React.JSX.Element {
                 </a>
 
                 <a
-                  href="#"
+                  href="/"
                   aria-label="Facebook"
                   className="w-8 h-8 inline-flex items-center justify-center rounded-full border-2 border-[var(--color-secondary)] text-[var(--color-secondary)] transition hover:bg-[var(--color-tertiary)] hover:text-black"
                 >
@@ -50,7 +50,7 @@ export default function Footer(): React.JSX.Element {
                 </a>
 
                 <a
-                  href="#"
+                  href="/"
                   aria-label="Instagram"
                   className="w-8 h-8 inline-flex items-center justify-center rounded-full border-2 border-[var(--color-secondary)] text-[var(--color-secondary)] transition hover:bg-[var(--color-tertiary)] hover:text-black"
                 >
@@ -60,7 +60,7 @@ export default function Footer(): React.JSX.Element {
                 </a>
 
                 <a
-                  href="#"
+                  href="/"
                   aria-label="LinkedIn"
                   className="w-8 h-8 inline-flex items-center justify-center rounded-full border-2 border-[var(--color-secondary)] text-[var(--color-secondary)] transition hover:bg-[var(--color-tertiary)] hover:text-black"
                 >
@@ -77,23 +77,23 @@ export default function Footer(): React.JSX.Element {
               <ul className="mt-2 space-y-2">
                 <li className="flex items-center">
                   <span className="mr-2 text-[var(--color-primary)]">—</span>
-                  <Link href="#" className="text-[var(--color-primary)] hover:text-white transition">Home</Link>
+                  <Link href="/" className="text-[var(--color-primary)] hover:text-white transition">Home</Link>
                 </li>
                 <li className="flex items-center">
                   <span className="mr-2 text-[var(--color-primary)]">—</span>
-                  <Link href="#about" className="text-[var(--color-primary)] hover:text-white transition">About us</Link>
+                  <Link href="/about" className="text-[var(--color-primary)] hover:text-white transition">About us</Link>
                 </li>
                 <li className="flex items-center">
                   <span className="mr-2 text-[var(--color-primary)]">—</span>
-                  <Link href="#services" className="text-[var(--color-primary)] hover:text-white transition">Services</Link>
+                  <Link href="/services" className="text-[var(--color-primary)] hover:text-white transition">Services</Link>
                 </li>
                 <li className="flex items-center">
                   <span className="mr-2 text-[var(--color-primary)]">—</span>
-                  <Link href="#" className="text-[var(--color-primary)] hover:text-white transition">Terms of service</Link>
+                  <Link href="/terms-of-service" className="text-[var(--color-primary)] hover:text-white transition">Terms of service</Link>
                 </li>
                 <li className="flex items-center">
                   <span className="mr-2 text-[var(--color-primary)]">—</span>
-                  <Link href="#" className="text-[var(--color-primary)] hover:text-white transition">Privacy policy</Link>
+                  <Link href="/privacy-policy" className="text-[var(--color-primary)] hover:text-white transition">Privacy policy</Link>
                 </li>
               </ul>
             </div>
@@ -104,23 +104,23 @@ export default function Footer(): React.JSX.Element {
               <ul className="mt-2 space-y-2">
                 <li className="flex items-center">
                   <span className="mr-2 text-[var(--color-primary)]">—</span>
-                  <Link href="#" className="text-[var(--color-primary)] hover:text-white transition">Web Design</Link>
+                  <Link href="/" className="text-[var(--color-primary)] hover:text-white transition">Web Design</Link>
                 </li>
                 <li className="flex items-center">
                   <span className="mr-2 text-[var(--color-primary)]">—</span>
-                  <Link href="#" className="text-[var(--color-primary)] hover:text-white transition">Web Development</Link>
+                  <Link href="/" className="text-[var(--color-primary)] hover:text-white transition">Web Development</Link>
                 </li>
                 <li className="flex items-center">
                   <span className="mr-2 text-[var(--color-primary)]">—</span>
-                  <Link href="#" className="text-[var(--color-primary)] hover:text-white transition">Product Management</Link>
+                  <Link href="/" className="text-[var(--color-primary)] hover:text-white transition">Product Management</Link>
                 </li>
                 <li className="flex items-center">
                   <span className="mr-2 text-[var(--color-primary)]">—</span>
-                  <Link href="#" className="text-[var(--color-primary)] hover:text-white transition">Marketing</Link>
+                  <Link href="/" className="text-[var(--color-primary)] hover:text-white transition">Marketing</Link>
                 </li>
                 <li className="flex items-center">
                   <span className="mr-2 text-[var(--color-primary)]">—</span>
-                  <Link href="#" className="text-[var(--color-primary)] hover:text-white transition">Graphic Design</Link>
+                  <Link href="/" className="text-[var(--color-primary)] hover:text-white transition">Graphic Design</Link>
                 </li>
               </ul>
             </div>
@@ -139,7 +139,7 @@ export default function Footer(): React.JSX.Element {
 
       {/* Footer legal */}
       <div className="bg-[var(--color-bg-primary)] py-8 border-t border-black/20">
-        <div className="max-w-6xl mx-auto px-4 text-center">
+        <div className="w-full mx-auto px-4 md:pr-16 lg:px-134 text-center">
           <div className="text-[var(--color-primary)]">
             © {new Date().getFullYear()} <strong>Willful Solutions</strong>. All Rights Reserved
           </div>
