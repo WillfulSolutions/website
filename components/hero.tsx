@@ -39,7 +39,7 @@ export default function Hero(){
             </blockquote>
 
             <div className="flex items-center gap-3">
-              <Link href="/contact" className="inline-block font-sans font-medium text-base tracking-wide px-10 py-3 rounded-full transition duration-500 my-2 border-2 border-[#DBC078] text-[#DBC078] hover:bg-[#d0ad50] hover:border-[#d0ad50] hover:text-white" aria-label="Get Started">
+              <Link href="/contact" className="inline-block font-sans font-medium text-base tracking-wide px-10 py-3 rounded-full transition duration-500 my-2 border-2 bg-[#d0ad50] border-[#d0ad50] text-black hover:bg-transparent hover:border-[#d0ad50] hover:text-[#d0ad50]" aria-label="Get Started">
                 Get Started
               </Link>
 
