@@ -106,7 +106,7 @@ export default function ServicesList() {
         </div>
 
           <div className="flex justify-center">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-6 lg:gap-x-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-6 lg:gap-y-24 lg:gap-x-12">
           {services.map((s, idx) => (
             <div
               key={s.title}
