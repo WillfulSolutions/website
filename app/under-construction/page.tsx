@@ -2,11 +2,11 @@ import React from 'react';
 import Image from 'next/image';
 import type { Metadata } from 'next';
 
+export const dynamic = 'force-static';
+
 export const metadata: Metadata = {
   title: 'Under Construction',
 };
-
-
 
 export default function UnderConstruction() {
   return (
