@@ -6,6 +6,8 @@ export const metadata: Metadata = {
   title: 'Under Construction',
 };
 
+export const dynamic = 'force-static';
+
 export default function UnderConstruction() {
   return (
     <main className="min-h-screen flex items-center justify-center bg-black">
@@ -17,6 +19,7 @@ export default function UnderConstruction() {
           height={256}
           className="mx-auto mb-16"
           priority
+          unoptimized
         />
         <h1 className="text-4xl md:text-5xl font-bold mb-6 text-[var(--color-primary)] font-sans">Under Construction</h1>
         <div className="mx-auto my-22 w-12 h-12 rounded-full border-8 text-[var(--color-tertiary)] border-t-[var(--color-primary)] animate-spin" aria-hidden="true" />
