@@ -30,11 +30,11 @@ export default function Header() {
 
           <nav className="hidden xl:flex items-center space-x-6 navbar">
               <Link href="#" className={`text-[var(--color-primary)] hover:text-white font-medium`}>Home</Link>
-              <Link href="#about" className={`text-[var(--color-primary)] hover:text-white font-medium`}>About</Link>
+              <Link href="/under-construction" className={`text-[var(--color-primary)] hover:text-white font-medium`}>About</Link>
               <Link href="#services-list" className={`text-[var(--color-primary)] hover:text-white font-medium`}>Services</Link>
-              <Link href="/contact" className={`text-[var(--color-primary)] hover:text-white font-medium`}>Technologies</Link>
-              <Link href="/portfolio" className={`text-[var(--color-primary)] hover:text-white font-medium`}>Portfolio</Link>
-              <Link href="/contact" className={`text-[var(--color-primary)] hover:text-white font-medium`}>Contact</Link>
+              <Link href="/under-construction" className={`text-[var(--color-primary)] hover:text-white font-medium`}>Technologies</Link>
+              <Link href="/under-construction" className={`text-[var(--color-primary)] hover:text-white font-medium`}>Portfolio</Link>
+              <Link href="/under-construction" className={`text-[var(--color-primary)] hover:text-white font-medium`}>Contact</Link>
           </nav>
 
          <div className="xl:hidden">
@@ -73,7 +73,7 @@ export default function Header() {
           <Link href="#features" className={`text-[var(--color-primary)] hover:text-white text-lg font-semibold`} onClick={() => setMobileOpen(false)}>Features</Link>
           <Link href="#why-us" className={`text-[var(--color-primary)] hover:text-white text-lg font-semibold`} onClick={() => setMobileOpen(false)}>Why Us</Link>
           <Link href="#services-list" className={`text-[var(--color-primary)] hover:text-white text-lg font-semibold`} onClick={() => setMobileOpen(false)}>Services</Link>
-          <Link href="/contact" className={`text-[var(--color-primary)] hover:text-white text-lg font-semibold`} onClick={() => setMobileOpen(false)}>Contact</Link>
+          <Link href="/under-construction" className={`text-[var(--color-primary)] hover:text-white text-lg font-semibold`} onClick={() => setMobileOpen(false)}>Contact</Link>
         </nav>
       </div>
 
