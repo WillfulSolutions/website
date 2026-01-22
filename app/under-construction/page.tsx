@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'Under Construction',
 };
 
-export const dynamic = 'force-static';
+
 
 export default function UnderConstruction() {
   return (
