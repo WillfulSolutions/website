@@ -81,19 +81,19 @@ export default function Footer(): React.JSX.Element {
                 </li>
                 <li className="flex items-center">
                   <span className="mr-2 text-[var(--color-primary)]">—</span>
-                  <Link href="/about" className="text-[var(--color-primary)] hover:text-white transition">About us</Link>
+                  <Link href="/under-construction" className="text-[var(--color-primary)] hover:text-white transition">About us</Link>
                 </li>
                 <li className="flex items-center">
                   <span className="mr-2 text-[var(--color-primary)]">—</span>
-                  <Link href="/services" className="text-[var(--color-primary)] hover:text-white transition">Services</Link>
+                  <Link href="/under-construction" className="text-[var(--color-primary)] hover:text-white transition">Services</Link>
                 </li>
                 <li className="flex items-center">
                   <span className="mr-2 text-[var(--color-primary)]">—</span>
-                  <Link href="/terms-of-service" className="text-[var(--color-primary)] hover:text-white transition">Terms of service</Link>
+                  <Link href="/under-construction" className="text-[var(--color-primary)] hover:text-white transition">Terms of service</Link>
                 </li>
                 <li className="flex items-center">
                   <span className="mr-2 text-[var(--color-primary)]">—</span>
-                  <Link href="/privacy-policy" className="text-[var(--color-primary)] hover:text-white transition">Privacy policy</Link>
+                  <Link href="/under-construction" className="text-[var(--color-primary)] hover:text-white transition">Privacy policy</Link>
                 </li>
               </ul>
             </div>
@@ -104,23 +104,23 @@ export default function Footer(): React.JSX.Element {
               <ul className="mt-2 space-y-2">
                 <li className="flex items-center">
                   <span className="mr-2 text-[var(--color-primary)]">—</span>
-                  <Link href="/" className="text-[var(--color-primary)] hover:text-white transition">Web Design</Link>
+                  <Link href="/under-construction" className="text-[var(--color-primary)] hover:text-white transition">Web Design</Link>
                 </li>
                 <li className="flex items-center">
                   <span className="mr-2 text-[var(--color-primary)]">—</span>
-                  <Link href="/" className="text-[var(--color-primary)] hover:text-white transition">Web Development</Link>
+                  <Link href="/under-construction" className="text-[var(--color-primary)] hover:text-white transition">Web Development</Link>
                 </li>
                 <li className="flex items-center">
                   <span className="mr-2 text-[var(--color-primary)]">—</span>
-                  <Link href="/" className="text-[var(--color-primary)] hover:text-white transition">Product Management</Link>
+                  <Link href="/under-construction" className="text-[var(--color-primary)] hover:text-white transition">Product Management</Link>
                 </li>
                 <li className="flex items-center">
                   <span className="mr-2 text-[var(--color-primary)]">—</span>
-                  <Link href="/" className="text-[var(--color-primary)] hover:text-white transition">Marketing</Link>
+                  <Link href="/under-construction" className="text-[var(--color-primary)] hover:text-white transition">Marketing</Link>
                 </li>
                 <li className="flex items-center">
                   <span className="mr-2 text-[var(--color-primary)]">—</span>
-                  <Link href="/" className="text-[var(--color-primary)] hover:text-white transition">Graphic Design</Link>
+                  <Link href="/under-construction" className="text-[var(--color-primary)] hover:text-white transition">Graphic Design</Link>
                 </li>
               </ul>
             </div>
@@ -144,7 +144,7 @@ export default function Footer(): React.JSX.Element {
             © {new Date().getFullYear()} <strong>Willful Solutions</strong>. All Rights Reserved
           </div>
           <div className="pt-1 text-[13px] text-[var(--color-primary)]">
-            Designed by <a href="https://github.com/WillfulSolutions" className="text-[var(--color-secondary)] hover:text-white">Willful Solutions</a>
+            Designed by <a href="#" className="text-[var(--color-secondary)] hover:text-white">Willful Solutions</a>
           </div>
         </div>
       </div>
